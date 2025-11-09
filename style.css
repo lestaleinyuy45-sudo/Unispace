@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: auto;
+}
+
+body{
+    background: #F3F3F3;
+}
+.nav-bar{
+    margin: 0;
+    padding: 10px;
+    background: #3e4ed4;
+    position: relative;
+    top: 0;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.labels li{
+    color: #fff;
+}
+
+.labels a{
+    text-decoration: none;
+}
+
+.labels a:hover{
+    padding: 15px;
+    background:#425051;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.introduction{
+    max-width: 1200px;
+    width: 400px;
+    height: auto;
+    margin: 0px auto;
+    padding:20px;
+    background: #fff;
+    border-radius: 25px;
+    line-height: 2.0rem;
+}
+
+.introduction h2{
+    color: #2C2AE3;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
+    overflow-x: auto;
+}
+
+.discussion-section{
+    max-width: 1200px;
+    width: 400px;
+    height: auto;
+    margin: 10px auto;
+    padding:0;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 25px 25px 0 0;
+}
+.section-title{
+    background: #2C2AE3;
+    color: white;
+    padding: 1.2rem;
+}
+.problems{
+    line-height: 30px
+}
+.problems p{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.problems{
+    margin: 30px auto;
+    padding: 20px;
+    border-bottom: 1px solid  #eee;
+}
+
+.discussion-section a{
+    padding: 20;
+    width: 400px;
+    height: 300;
+    background: #2C2AE3;
+    color: white;
+    border-radius: 5px;
+}
+
+.gallery-container{
+    display: flex;
+    gap:10px;
+    overflow-x: auto;
+    padding: 20px 10px;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+}
+
+.gallery-item{
+      flex: 0 0 auto;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      object-fit: cover;
+}
+
+.gallery-item:hover{
+    transform: scale(1.04);
+}
+
+img{
+    width: auto;
+    height: 150px;
+}
+
+.freshmen-faq {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+        
+        .faq-header {
+            background-color: #e63946;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-content {
+            padding: 1.5rem;
+        }
+        
+        .faq-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .faq-category {
+            background-color: #f1faee;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .faq-category:hover {
+            background-color: #a8dadc;
+        }
+        
+        .faq-list {
+            list-style: none;
+        }
+        
+        .faq-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2C2AE3;
+        }
+        
+        .faq-answer {
+            color: #555;
+        }
+        
+       footer{
+         margin: 20px auto;
+         padding: 2rem 0 auto;
+         background: #1d3557;
+         color: white;
+         line-height: 1.9rem;
+        }
+        .footer-section a{
+            text-decoration: none;
+            color: #38A1A4;
+            display: block;
+            gap: 1.03rem;
+        }
+        
+         
+        .footer-section {
+       
+            min-width: 200px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-section h2 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .footer-section a:hover{
+            text-decoration-line: underline;
+        }
+        
+.footer-section span{
+     font-size: 2.3rem;
+     color: deeppink;
+ }
+ @media (max-width: 768px) {
+     .container{
+         grid-template-columns: 1fr;
+     }
+     .discussion-section{
+         width: 360px;
+         height: auto;
+         padding:20px;
+     }
+     }
+     
+    
